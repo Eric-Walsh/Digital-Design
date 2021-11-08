@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/wwu/apps/xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s
+1 -n 3 -fastpaths -xml Lab6_top_sch.twx Lab6_top_sch.ncd -o Lab6_top_sch.twr
+Lab6_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf
+
+Design file:              Lab6_top_sch.ncd
+Physical constraint file: Lab6_top_sch.pcf
+Device,package,speed:     xc7a100t,fgg676,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock mclk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Extout<4>   |        13.710(R)|      SLOW  |         4.250(R)|      FAST  |TEK5_OBUF_BUFG    |   0.000|
+TEK1<4>     |        13.683(R)|      SLOW  |         4.226(R)|      FAST  |TEK5_OBUF_BUFG    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock mclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |    2.725|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+mclk           |Extout<7>      |   11.856|
+mclk           |TEK1<7>        |    8.839|
+mclk           |TEK5           |   11.699|
+sw0            |Extout<0>      |   10.957|
+sw0            |Extout<1>      |   11.097|
+sw0            |Extout<2>      |   10.841|
+sw0            |Extout<3>      |   11.146|
+sw0            |TEK1<0>        |   11.546|
+sw0            |TEK1<1>        |   11.322|
+sw0            |TEK1<2>        |   10.984|
+sw0            |TEK1<3>        |   11.253|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Nov  2 16:09:10 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 753 MB
+
+
+

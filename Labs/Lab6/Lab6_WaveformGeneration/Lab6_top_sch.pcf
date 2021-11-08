@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 02 16:08:29 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Extout<0>" LOCATE = SITE "F2" LEVEL 1;
+COMP "Extout<1>" LOCATE = SITE "E2" LEVEL 1;
+COMP "Extout<2>" LOCATE = SITE "E1" LEVEL 1;
+COMP "Extout<3>" LOCATE = SITE "D1" LEVEL 1;
+COMP "Extout<4>" LOCATE = SITE "C1" LEVEL 1;
+COMP "sw0" LOCATE = SITE "T3" LEVEL 1;
+COMP "TEK5" LOCATE = SITE "D4" LEVEL 1;
+COMP "Extout<5>" LOCATE = SITE "B1" LEVEL 1;
+COMP "Extout<6>" LOCATE = SITE "E5" LEVEL 1;
+COMP "Extout<7>" LOCATE = SITE "D5" LEVEL 1;
+COMP "mclk" LOCATE = SITE "U22" LEVEL 1;
+COMP "TEK1<0>" LOCATE = SITE "F23" LEVEL 1;
+COMP "TEK1<1>" LOCATE = SITE "E23" LEVEL 1;
+COMP "TEK1<2>" LOCATE = SITE "H26" LEVEL 1;
+COMP "TEK1<3>" LOCATE = SITE "G26" LEVEL 1;
+COMP "TEK1<4>" LOCATE = SITE "E25" LEVEL 1;
+COMP "TEK1<5>" LOCATE = SITE "D25" LEVEL 1;
+COMP "TEK1<6>" LOCATE = SITE "E26" LEVEL 1;
+COMP "TEK1<7>" LOCATE = SITE "D26" LEVEL 1;
+SCHEMATIC END;
+
