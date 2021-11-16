@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/wwu/nicholas.zimmerman/Documents/Lab7/Lab7_serialTransmission/Lab7_top_sch.ncd
+OUTFILE=/home/wwu/nicholas.zimmerman/Documents/Lab7/Lab7_serialTransmission/Lab7_top_sch.bit
+FAMILY=Artix7
+PART=xc7a100t-1fgg676
+WORKINGDIR=/home/wwu/nicholas.zimmerman/Documents/Lab7/Lab7_serialTransmission
+LICENSE=WebPack
+USER_INFO=211974752_0_0_356

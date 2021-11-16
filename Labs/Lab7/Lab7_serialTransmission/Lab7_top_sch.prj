@@ -1,0 +1,3 @@
+vhdl work "Tx.vhd"
+vhdl work "Rx.vhd"
+vhdl work "Lab7_top_sch.vhd"
