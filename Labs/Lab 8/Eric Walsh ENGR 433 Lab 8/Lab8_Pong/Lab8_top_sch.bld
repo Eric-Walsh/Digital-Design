@@ -1,0 +1,37 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /wwu/apps/xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p
+xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd
+
+Reading NGO file
+"/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "wwu_fpga3_artix_ddr3.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 448712 kilobytes
+
+Writing NGD file "Lab8_top_sch.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+Writing NGDBUILD log file "Lab8_top_sch.bld"...

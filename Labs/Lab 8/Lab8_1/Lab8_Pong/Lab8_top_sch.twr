@@ -1,0 +1,103 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/wwu/apps/xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s
+1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr
+Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf
+
+Design file:              Lab8_top_sch.ncd
+Physical constraint file: Lab8_top_sch.pcf
+Device,package,speed:     xc7a100t,fgg676,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock mclk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+btn2        |    1.306(R)|      SLOW  |    1.264(R)|      SLOW  |tek5_OBUF_BUFG    |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock mclk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+anode<2>    |        12.909(R)|      SLOW  |         4.247(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+anode<4>    |        13.229(R)|      SLOW  |         4.301(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+cath<0>     |        15.441(R)|      SLOW  |         4.257(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+cath<1>     |        15.723(R)|      SLOW  |         4.529(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+cath<2>     |        15.789(R)|      SLOW  |         4.302(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+cath<3>     |        15.997(R)|      SLOW  |         4.616(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+cath<4>     |        15.629(R)|      SLOW  |         4.416(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+cath<5>     |        15.690(R)|      SLOW  |         4.491(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+cath<6>     |        15.388(R)|      SLOW  |         4.335(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+extout<0>   |        14.776(R)|      SLOW  |         4.426(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<0>      |        13.045(R)|      SLOW  |         4.276(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<1>      |        13.032(R)|      SLOW  |         4.272(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<2>      |        12.282(R)|      SLOW  |         3.925(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<3>      |        12.381(R)|      SLOW  |         3.940(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<4>      |        12.265(R)|      SLOW  |         3.873(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<5>      |        12.464(R)|      SLOW  |         3.988(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<6>      |        13.034(R)|      SLOW  |         4.199(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<7>      |        13.290(R)|      SLOW  |         4.327(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<8>      |        13.253(R)|      SLOW  |         4.240(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+led<15>     |        15.645(R)|      SLOW  |         5.164(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+tek1<0>     |        14.533(R)|      SLOW  |         4.783(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+tek1<1>     |        18.101(R)|      SLOW  |         4.984(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+tek1<2>     |        17.870(R)|      SLOW  |         4.886(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+tek4<0>     |        17.343(R)|      SLOW  |         5.789(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+tek4<1>     |        19.510(R)|      SLOW  |         5.471(R)|      FAST  |tek5_OBUF_BUFG    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock mclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mclk           |    6.394|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+mclk           |extout<8>      |   11.699|
+mclk           |tek1<7>        |    8.839|
+mclk           |tek5           |   11.843|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 13 15:38:44 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 754 MB
+
+
+

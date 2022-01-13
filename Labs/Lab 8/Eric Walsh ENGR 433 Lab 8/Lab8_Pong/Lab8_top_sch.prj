@@ -1,0 +1,4 @@
+vhdl work "bcd_to_7seg.vhd"
+vhdl work "Seg7Driver.vhd"
+vhdl work "led_8x16_driver.vhd"
+vhdl work "Lab8_top_sch.vhd"

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/wwu/nicholas.zimmerman/Documents/Lab8_1/impact.xsl
+OUTFILE=/home/wwu/nicholas.zimmerman/Documents/Lab8_1/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/wwu/nicholas.zimmerman/Documents/Lab8_1
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,369 @@
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+xst -intstyle ise -ifn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.xst" -ofn "/home/wwu/nicholas.zimmerman/Documents/Lab8_1/Lab8_Pong/Lab8_top_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_artix_ddr3.ucf -p xc7a100t-fgg676-1 Lab8_top_sch.ngc Lab8_top_sch.ngd  
+map -intstyle ise -p xc7a100t-fgg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lab8_top_sch_map.ncd Lab8_top_sch.ngd Lab8_top_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lab8_top_sch_map.ncd Lab8_top_sch.ncd Lab8_top_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lab8_top_sch.twx Lab8_top_sch.ncd -o Lab8_top_sch.twr Lab8_top_sch.pcf -ucf wwu_fpga3_artix_ddr3.ucf 
+bitgen -intstyle ise -f Lab8_top_sch.ut Lab8_top_sch.ncd 
